@@ -1,0 +1,21 @@
+.biotune-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 60px;
+}
+
+.biotune-image {
+  width: 42.6%;
+}
+
+.biotune-logo {
+  width: 106px;
+}
+
+.biotune-text-container {
+  display: flex;
+  flex-direction: column;
+  width: 43%;
+  gap: 32px;
+}/*# sourceMappingURL=style.css.map */

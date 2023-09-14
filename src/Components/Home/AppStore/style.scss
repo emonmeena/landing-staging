@@ -1,0 +1,44 @@
+@import "./animation.scss";
+
+.appStore-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 60px;
+}
+.appStore-text-container {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 32px;
+	width: 480px;
+}
+
+.appStore-p-wrapper {
+	width: 115%;
+}
+
+.appStore-mockup-container {
+	width: 51%;
+	height: 485px;
+
+	align-items: center;
+	border-radius: 12px;
+	border: 6px solid rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	justify-content: flex-start;
+}
+
+.appStore-mockup {
+	background-image: url("../../../Assets/AppStore/appStore-mockup.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	width: 100%;
+	height: 2048px;
+	animation: 40s ease-in-out scroll-stripe-appStore infinite;
+
+	&:hover {
+		animation-play-state: paused;
+	}
+}

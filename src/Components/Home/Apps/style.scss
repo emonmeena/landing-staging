@@ -1,0 +1,33 @@
+.apps-container {
+	display: flex;
+	height: 636px;
+	background-image: linear-gradient(
+		0deg,
+		rgba(255, 255, 255, 1) 0%,
+		rgba(255, 255, 255, 0) 42%,
+		rgba(255, 255, 255, 1) 83%
+	);
+
+	width: 100%;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.apps-title-wrapper {
+	justify-self: center;
+	text-align: center;
+}
+
+.apps-video-wrapper {
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	height: auto;
+	max-height: 630px;
+	contain: content;
+	overflow: hidden;
+}
+
+.apps-video {
+	width: 100%;
+}

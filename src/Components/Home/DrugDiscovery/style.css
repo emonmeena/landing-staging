@@ -1,0 +1,45 @@
+.drugDiscovery-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 60px;
+  gap: 56px;
+  display: flex;
+}
+
+.drugDiscovery-content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.drugdiscovery-image-container {
+  width: 43%;
+  border-radius: 10px;
+  border: 6px solid rgba(0, 0, 0, 0.1);
+  justify-content: space-between;
+}
+
+.drugDiscovery-list {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  gap: 36px;
+  justify-content: flex-end;
+}
+.drugDiscovery-list .drugDiscovery-list-item {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+}
+.drugDiscovery-list .drugDiscovery-list-icon {
+  width: 36px;
+  height: 36px;
+}
+.drugDiscovery-list .drugDiscovery-list-text {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.drugDiscovery-list .drugDiscovery-p-wrapper {
+  text-align: left;
+}/*# sourceMappingURL=style.css.map */

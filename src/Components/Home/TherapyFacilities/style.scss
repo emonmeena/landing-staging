@@ -1,0 +1,35 @@
+.therapy-container {
+	padding: 60px;
+	display: flex;
+	justify-content: space-between;
+	gap: 92px;
+}
+
+.therapy-video-wrapper {
+	width: 526px;
+	height: 350px;
+	overflow: hidden;
+	border-radius: 23px;
+	border: 12px solid rgba(0, 0, 0, 0.1);
+}
+
+.therapy-video {
+	height: 370px;
+}
+
+.therapy-text-container {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 24px;
+	width: 55%;
+}
+
+.therapy-p-wrapper {
+	width: 100%;
+}
+
+.therapy-buttons-wrapper {
+	margin-top: 8px;
+}

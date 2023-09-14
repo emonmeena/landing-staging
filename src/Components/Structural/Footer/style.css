@@ -1,0 +1,84 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  background-color: #1a1c2f;
+  justify-content: flex-start;
+  padding: 80px 60px 150px 60px;
+  background-image: url("../../../Assets/Icons/prepair-lab.png");
+  background-size: 32.5%;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-position-y: 100%;
+}
+
+.footer-content-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 120px;
+}
+
+.footer-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 375px;
+}
+.footer-text-container p {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+}
+
+.footer-link-container {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+.footer-link-container a {
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  text-decoration: none;
+}
+.footer-link-container a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.footer-emails-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer-bottom-container {
+  display: flex;
+  bottom: 0px;
+  left: 0px;
+  height: fit-content;
+  padding: 17px 120px 16px 120px;
+  background-color: #5498ee;
+  justify-content: space-between;
+}
+.footer-bottom-container p {
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+}
+
+.terms-container {
+  display: flex;
+  gap: 64px;
+}/*# sourceMappingURL=style.css.map */

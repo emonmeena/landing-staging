@@ -1,0 +1,46 @@
+@import "../../../Scss/variables";
+
+.navBar-container {
+	position: sticky;
+	display: flex;
+	flex-direction: row;
+	height: 48px;
+	padding: 12px 60px;
+	justify-content: space-between;
+	align-items: center;
+	background-color: $light-color;
+	border-bottom: solid 1px $neutral-color10;
+	transition: top 0.2s;
+	z-index: 2;
+}
+.hidden {
+	display: none;
+}
+
+.navbar-action-container {
+	display: flex;
+	gap: 32px;
+}
+.navbar-links-container {
+	display: flex;
+	gap: 32px;
+	align-items: center;
+
+	a {
+		font-family: "Inter";
+		font-size: 16px;
+		color: $dark-color;
+		line-height: 24px;
+		font-weight: 500;
+		text-decoration: none;
+
+		&:hover {
+			color: $primary-color;
+			cursor: pointer;
+		}
+	}
+}
+.navBar-button-containers {
+	display: flex;
+	gap: 12px;
+}

@@ -1,0 +1,104 @@
+.contactUs-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.contactUs-video-wrapper {
+  display: flex;
+  width: 640px;
+  overflow: hidden;
+  height: 735px;
+}
+
+.contactUs-video {
+  height: 735px;
+  margin-left: -500px;
+}
+
+.contactus-form-container {
+  display: flex;
+  flex-direction: column;
+  width: 680px;
+  padding: 40px 60px;
+  align-self: stretch;
+  gap: 48px;
+}
+
+.form-firstLast-container {
+  display: flex;
+  gap: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form-input-wrapper {
+  gap: 12px;
+}
+.form-input-wrapper .small {
+  width: 296px;
+}
+.form-input-wrapper input {
+  width: 646px;
+  align-items: flex-start;
+  display: flex;
+  padding: 17px 12px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: var(--generic-white, #fff);
+  /* Drop shadow/XSmall */
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+.form-input-wrapper input:hover {
+  outline: solid 1px #5498ee;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px rgba(84, 152, 238, 0.1);
+}
+.form-input-wrapper input:focus {
+  outline: none;
+  border: 1px solid #5498ee;
+}
+.form-input-wrapper textarea {
+  display: flex;
+  padding: 17px 12px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  flex: 1 0 0;
+  align-self: stretch;
+  width: 642px;
+  height: 227px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: var(--generic-white, #fff);
+  /* Drop shadow/XSmall */
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+.form-input-wrapper textarea:hover {
+  outline: solid 1px #5498ee;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px rgba(84, 152, 238, 0.1);
+}
+.form-input-wrapper textarea:focus {
+  outline: none;
+  border: 1px solid #5498ee;
+}
+.form-input-wrapper p {
+  color: red;
+  margin-top: 6px;
+  background: #ffe1e1;
+  border-radius: 4px;
+  background-color: #ffe1e1;
+  width: fit-content;
+  display: flex;
+  padding: 4px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.form-input-wrapper .hidden {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
