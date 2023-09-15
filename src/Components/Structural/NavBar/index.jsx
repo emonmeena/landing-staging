@@ -55,7 +55,6 @@ const NavBar = () => {
 								.scrollIntoView({ behavior: "smooth", block: "center" })
 						}
 					>
-						{" "}
 						Mission
 					</a>
 					<a
@@ -65,10 +64,17 @@ const NavBar = () => {
 								.scrollIntoView({ behavior: "smooth", block: "center" })
 						}
 					>
-						{" "}
 						Biotune
 					</a>
-					<a> Contact</a>
+					<a
+						onClick={() =>
+							document
+								.querySelector("#contact")
+								.scrollIntoView({ behavior: "smooth", block: "center" })
+						}
+					>
+						Contact
+					</a>
 				</div>
 				<div className="navBar-button-containers">
 					<Link

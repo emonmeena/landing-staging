@@ -39,7 +39,7 @@ const HomePage = () => {
 				<div className="partners-outter-container">
 					<Partners />
 				</div>
-				<div className="contactUs-outter-container">
+				<div id="contact" className="contactUs-outter-container">
 					<ContactUs />
 				</div>
 			</div>

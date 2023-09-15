@@ -11,8 +11,13 @@ const Footer = () => {
 					<div className="footer-text-container">
 						<img className="footer-logo" src={Logo} />
 						<p>
-							Unit 11 / Lab 1, Building 10, Cherrywood Business Park,
-							Loughlinstown, Dublin, D18 T3Y1, Ireland
+							14th floor, ONE JLT Building
+							<br />
+							Jumeriah Lake Towers Dubai,
+							<br />
+							Dubai,103805
+							<br />
+							U.A.E.
 						</p>
 						<div className="footer-emails-container">
 							<p>info@prepaire.com</p>
