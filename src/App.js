@@ -9,9 +9,8 @@ function App() {
 	return (
 		<Router>
 			<NavBar />
-
 			<Routes>
-				<Route exact path="/" element={<HomePage />} />
+				<Route exact path="/landing-staging" element={<HomePage />} />
 			</Routes>
 			<Footer />
 		</Router>
