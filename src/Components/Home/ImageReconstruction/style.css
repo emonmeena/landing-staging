@@ -19,8 +19,12 @@
 }
 
 .imageR-tittle-wrapper {
-  width: 579px;
-  text-align: center;
+  display: flex;
+  width: auto;
+  max-width: 719px;
+  text-align: left;
+  align-items: center;
+  gap: 32px;
 }
 
 .imageR-image {
@@ -56,4 +60,9 @@
 
 .imageR-cardIcon {
   width: 64px;
+}
+
+.biotune-logo-imageR {
+  width: 108px;
+  height: 88px;
 }/*# sourceMappingURL=style.css.map */

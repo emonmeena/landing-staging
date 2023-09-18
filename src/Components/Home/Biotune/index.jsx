@@ -20,8 +20,8 @@ const Biotune = () => {
 				</div>
 
 				<p>
-					Glass doors and floor-to-ceiling windows stream natural light into the
-					new Dubai Biotune Center, creating a positive energy in the space.
+					Your personal sanctuary for cutting-edge wellness and life-enhancing
+					therapies. We bring the future of regenerative medicine to Dubai.
 				</p>
 			</div>
 

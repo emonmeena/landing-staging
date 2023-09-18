@@ -10,12 +10,13 @@ import BiotuneLogo from "../../../Assets/Biotune/biotune-logo.png";
 const ImageReconstruction = () => {
 	return (
 		<div className="imageR-container">
-			<div className="biotune-logo-wrapper">
-				<img className="biotune-logo" alt="biotune logo " src={BiotuneLogo} />{" "}
-			</div>
-
 			<div className="imageR-topContent-container">
 				<div className="imageR-tittle-wrapper">
+					<img
+						className="biotune-logo-imageR"
+						alt="biotune logo "
+						src={BiotuneLogo}
+					/>{" "}
 					<h2>
 						Fast AI Data Processing for{" "}
 						<span className="color-variation-blue">Image Reconstruction</span>
