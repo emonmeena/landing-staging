@@ -25,7 +25,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	gap: 20px;
-	justify-content: center;
+	justify-content: flex-start;
 	height: 200px;
 	overflow: hidden;
 	background-color: white;
@@ -47,4 +47,16 @@
 
 .partner-button-wrapper {
 	justify-content: center;
+}
+
+@media only screen and (min-width: 1460px) {
+	.partners-card {
+		width: 23.2%;
+	}
+}
+
+@media only screen and (min-width: 1615px) {
+	.partners-card {
+		width: 23.85%;
+	}
 }

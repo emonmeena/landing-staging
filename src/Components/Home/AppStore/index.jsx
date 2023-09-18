@@ -15,11 +15,15 @@ const AppStore = () => {
 				</div>
 				<div className="appStore-p-wrapper">
 					<p>
-						Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-						nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-						volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-						ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-						consequat. Duis autem vel eum iriure
+						Introducing our MultiOmnis App Store, the ultimate marketplace for
+						scientific innovation in gene editing and disease modeling. This
+						centralized hub gathers the most cutting edge applications you need
+						for your research, all in one convenient, easy to navigate platform.
+						No more juggling multiple subscriptions or scouring disparate
+						sources. From CRISPR to predictive algorithms, our app store is
+						curated to offer the best tools to fast-track your journey towards
+						personalized medicine. Make your research smarter, not harder, with
+						the MultiOmnis App Store
 					</p>
 				</div>
 				<div className="hero-buttons-container">

@@ -42,4 +42,10 @@
 .navBar-button-containers {
   display: flex;
   gap: 12px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .navbar-links-container {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */

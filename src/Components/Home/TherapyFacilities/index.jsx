@@ -23,9 +23,12 @@ const TherapyFacilities = () => {
 				</div>
 				<div className="therapy-p-wrapper">
 					<p>
-						Glass doors and floor-to-ceiling windows stream natural light into
-						the new Dubai Biotune Center, creating a positive energy in the
-						space.
+						Unlock the secrets of your DNA. Our genome sequencing services
+						provide a comprehensive view of your genetic makeup, opening the
+						doors to personalized therapies and interventions. Our
+						state-of-the-art biobank is a secure repository for biological
+						samples, aiding in efficient drug discovery and personalized
+						medicine.
 					</p>
 				</div>
 				<div className="therapy-buttons-wrapper">

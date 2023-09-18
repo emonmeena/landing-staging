@@ -5,14 +5,19 @@ import IconA from "../../../Assets/imageR/a_icon.png";
 import IconB from "../../../Assets/imageR/a_icon.png";
 import IconC from "../../../Assets/imageR/a_icon.png";
 import IconD from "../../../Assets/imageR/a_icon.png";
+import BiotuneLogo from "../../../Assets/Biotune/biotune-logo.png";
 
 const ImageReconstruction = () => {
 	return (
 		<div className="imageR-container">
+			<div className="biotune-logo-wrapper">
+				<img className="biotune-logo" alt="biotune logo " src={BiotuneLogo} />{" "}
+			</div>
+
 			<div className="imageR-topContent-container">
 				<div className="imageR-tittle-wrapper">
 					<h2>
-						Fast Data Processing for{" "}
+						Fast AI Data Processing for{" "}
 						<span className="color-variation-blue">Image Reconstruction</span>
 					</h2>
 				</div>

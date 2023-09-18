@@ -1,13 +1,13 @@
 .contactUs-container {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
 
 .contactUs-video-wrapper {
   display: flex;
-  width: 45%;
+  width: 50%;
   overflow: hidden;
-  height: 735px;
+  height: auto;
 }
 
 .contactUs-video {
@@ -18,7 +18,8 @@
 .contactus-form-container {
   display: flex;
   flex-direction: column;
-  width: 55%;
+  width: 680px;
+  max-width: 680px;
   padding: 40px 60px;
   align-self: stretch;
   gap: 48px;
@@ -93,7 +94,7 @@
 
 input {
   display: flex;
-  min-width: 300px;
+  min-width: 50%;
   border: none;
   color: #2e2e2e;
   /* Paragraph/Small/Regular */
@@ -126,7 +127,7 @@ input::placeholder {
   align-items: flex-start;
   display: flex;
   padding: 17px 12px;
-  min-width: 304px;
+  min-width: 50%;
   border-radius: 8px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background: var(--generic-white, #fff);
@@ -370,6 +371,8 @@ input::placeholder {
 }
 .full-textArea-correct .contactUs-correct-icon {
   display: flex;
+  align-self: flex-start;
+  margin-right: 5px;
 }
 
 .full-textArea-error {
@@ -411,4 +414,10 @@ input::placeholder {
 }
 .full-textArea-error .contactUs-correct-icon {
   display: none;
+}
+
+@media only screen and (min-width: 1920px) {
+  .contactUs-container {
+    justify-content: flex-start;
+  }
 }/*# sourceMappingURL=style.css.map */

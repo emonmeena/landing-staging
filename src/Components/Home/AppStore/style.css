@@ -18,16 +18,16 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 32px;
-  width: 480px;
+  width: 540px;
 }
 
 .appStore-p-wrapper {
-  width: 115%;
+  width: 540px;
 }
 
 .appStore-mockup-container {
-  width: 51%;
-  height: 485px;
+  width: 660px;
+  height: 497px;
   align-items: center;
   border-radius: 12px;
   border: 6px solid rgba(0, 0, 0, 0.1);
@@ -37,9 +37,9 @@
 
 .appStore-mockup {
   background-image: url("../../../Assets/AppStore/appStore-mockup.png");
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat;
-  width: 100%;
+  width: 660px;
   height: 2048px;
   animation: 40s ease-in-out scroll-stripe-appStore infinite;
 }

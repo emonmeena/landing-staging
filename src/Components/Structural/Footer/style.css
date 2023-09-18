@@ -3,7 +3,7 @@
   flex-direction: column;
   background-color: #1a1c2f;
   justify-content: flex-start;
-  padding: 80px 60px 65px 60px;
+  padding: 48px 60px 60px 60px;
   background-image: url("../../../Assets/Icons/prepair-lab.png");
   background-size: auto 100%;
   background-repeat: no-repeat;
@@ -19,11 +19,10 @@
 
 .footer-text-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 28px;
   align-items: flex-start;
   justify-content: flex-start;
-  width: 375px;
 }
 .footer-text-container p {
   color: rgba(255, 255, 255, 0.6);
@@ -36,7 +35,7 @@
 
 .footer-link-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 21px;
 }
 .footer-link-container a {
@@ -44,7 +43,7 @@
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 20px; /* 125% */
   text-decoration: none;
 }
@@ -80,4 +79,15 @@
 .terms-container {
   display: flex;
   gap: 64px;
+}
+
+.footer-logotext-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 272px;
+  gap: 28px;
+}
+
+.footer-logo {
+  width: 115px;
 }/*# sourceMappingURL=style.css.map */

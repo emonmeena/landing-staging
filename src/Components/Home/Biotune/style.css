@@ -6,7 +6,8 @@
 }
 
 .biotune-image {
-  width: 42.6%;
+  width: 556px;
+  height: 358px;
 }
 
 .biotune-logo {
@@ -16,6 +17,15 @@
 .biotune-text-container {
   display: flex;
   flex-direction: column;
-  width: 43%;
+  width: 672px;
   gap: 32px;
+}
+
+.biotune-logo-wrapper {
+  padding-left: 60px;
+  padding-bottom: 32px;
+  width: 90%;
+  max-width: 1600px;
+  display: flex;
+  justify-content: flex-start;
 }/*# sourceMappingURL=style.css.map */

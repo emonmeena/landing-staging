@@ -48,15 +48,7 @@ const NavBar = () => {
 						Appstore
 					</a>
 					<a> Developers</a>
-					<a
-						onClick={() =>
-							document
-								.querySelector("#mission")
-								.scrollIntoView({ behavior: "smooth", block: "center" })
-						}
-					>
-						Mission
-					</a>
+					<a>Mission</a>
 					<a
 						onClick={() =>
 							document

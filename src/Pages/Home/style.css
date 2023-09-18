@@ -10,7 +10,7 @@
   width: 100%;
   max-width: 1700px;
   margin-bottom: 160px;
-  margin-top: 70px;
+  margin-top: 135px;
 }
 
 .appStore-outter-container {
@@ -26,14 +26,14 @@
 
 .drugDiscovery-outter-container {
   width: 100%;
-  max-width: 1700px;
+  max-width: 1600px;
   margin-bottom: 160px;
   justify-content: center;
 }
 
 .biotune-outter-container {
   width: 100%;
-  max-width: 1700px;
+  max-width: 1600px;
   margin-bottom: 90px;
   justify-content: center;
 }
@@ -46,14 +46,14 @@
 }
 
 .therapy-outter-container {
-  max-width: 1700px;
+  max-width: 1600px;
   width: 100%;
   justify-content: center;
 }
 
 .partners-outter-container {
   width: 100%;
-  max-width: 1700px;
+  max-width: 1600px;
   justify-content: center;
   padding-top: 90px;
   padding-bottom: 90px;

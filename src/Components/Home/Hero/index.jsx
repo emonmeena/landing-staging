@@ -9,19 +9,22 @@ const Hero = () => {
 			<div className="hero-text-container">
 				<div className="hero-title-wrapper">
 					<h1>
-						Building the future of{" "}
-						<span className="color-variation-blue">medicine</span>{" "}
+						Transforming Drug Discovery through
+						<br />
+						<span className="color-variation-blue ">Open Collaboration</span>
 					</h1>
 				</div>
 				<div className="hero-p-wrapper">
 					<p className="bigger-p">
-						Unlock the Future of Medicine: Prepaire’s Universal App Store Your
-						Gateway to Disease Modeling, Drug Discovery, Regenerative Therapies,
-						and Beyond
+						At Prepaire Labs, we champion personalized medicine, harmonizing
+						treatments with unique genetics. Our open platform spurs
+						collaboration, propelling innovation. With our streamlined white box
+						model, we accelerate drug discovery and disease modeling for faster
+						therapeutic breakthroughs.
 					</p>
 				</div>
 				<div className="hero-buttons-container">
-					<button className="button-primary">Contact us</button>
+					<button className="button-primary">Submit</button>
 					<button className="button-secondary"> Become a developer</button>
 				</div>
 			</div>
