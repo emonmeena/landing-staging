@@ -38,15 +38,9 @@ const NavBar = () => {
 			</div>
 			<div className="navbar-action-container">
 				<div className="navbar-links-container">
-					<a
-						onClick={() =>
-							document
-								.querySelector("#appStore")
-								.scrollIntoView({ behavior: "smooth", block: "center" })
-						}
-					>
+					<Link to="https://prepaire-staging.vercel.app/#/marketplace">
 						Appstore
-					</a>
+					</Link>
 					<a> Developers</a>
 					<a>Mission</a>
 					<a
