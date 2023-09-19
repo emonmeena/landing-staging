@@ -3,6 +3,7 @@ import "./style.scss";
 import "../../../Scss/main.scss";
 import Video from "../../../Assets/Hero/HeroImage_placeHolder.png";
 import Download from "../../../Assets/Icons/download.svg";
+import { Link } from "react-router-dom";
 const Hero = () => {
 	return (
 		<div className="hero-container">
@@ -24,7 +25,12 @@ const Hero = () => {
 					</p>
 				</div>
 				<div className="hero-buttons-container">
-					<button className="button-primary">Submit</button>
+					<Link
+						className="button-primary"
+						to="https://prepaire-staging.vercel.app/#/signup"
+					>
+						Get started
+					</Link>
 					<button className="button-secondary"> Become a developer</button>
 				</div>
 			</div>

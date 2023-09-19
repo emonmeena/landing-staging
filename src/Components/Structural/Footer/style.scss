@@ -17,7 +17,7 @@
 .footer-content-container {
 	display: flex;
 	justify-content: flex-start;
-	gap: 120px;
+	gap: 80px;
 }
 .footer-text-container {
 	display: flex;
@@ -96,4 +96,48 @@
 
 .footer-logo {
 	width: 115px;
+}
+
+@media only screen and (max-width: 1439px) {
+	.footer-link-container {
+		flex-direction: column;
+	}
+	.footer-content-container {
+		gap: 60px;
+	}
+
+	.footer-text-container {
+		display: flex;
+		flex-direction: column;
+	}
+}
+@media only screen and (max-width: 1050px) {
+	.footer-container {
+		display: flex;
+		flex-direction: column;
+
+		background-color: $dark-blue;
+
+		justify-content: flex-start;
+		padding: 48px 60px 32px 32px;
+		background-image: none;
+	}
+
+	.footer-bottom-container {
+		display: flex;
+
+		flex-direction: column;
+		gap: 12px;
+		padding: 16px 32px 26px 32px;
+		justify-content: space-between;
+	}
+}
+
+@media only screen and (max-width: 759px) {
+	.footer-container {
+		padding: 80px 32px 80px 32px;
+	}
+	.footer-content-container {
+		flex-direction: column;
+	}
 }

@@ -1,6 +1,8 @@
 import React from "react";
 import "./style.scss";
 import "../../../Scss/main.scss";
+import View from "../../../Assets/Icons/eye.svg";
+import { Link } from "react-router-dom";
 // import Video from "../../../Assets/Hero/HeroImage_placeHolder.png";
 const AppStore = () => {
 	return (
@@ -26,8 +28,16 @@ const AppStore = () => {
 						the MultiOmnis App Store
 					</p>
 				</div>
-				<div className="hero-buttons-container">
-					<button className="button-secondary"> Become a developer</button>
+				<div className="appStore-buttons-container">
+					<button className="button-primary"> Become a developer</button>
+					<Link
+						className="button-secondary"
+						to="https://prepaire-staging.vercel.app/#/marketplace"
+					>
+						{" "}
+						<img alt="download-icon" src={View} />
+						View Appstore
+					</Link>
 				</div>
 			</div>
 			<div className="appStore-mockup-container">

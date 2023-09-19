@@ -64,5 +64,41 @@
 
 .biotune-logo-imageR {
   width: 108px;
-  height: 88px;
+  height: 94px;
+}
+
+@media only screen and (max-width: 1435px) {
+  .imageR-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .imageR-image {
+    width: 88%;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .imageR-cards-container {
+    display: none;
+  }
+  .imageR-container {
+    padding: 90px 32px;
+  }
+  .imageR-tittle-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .imageR-container {
+    padding: 48px 16px;
+  }
+  .imageR-tittle-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .imageR-topContent-container {
+    padding-bottom: 0px;
+  }
 }/*# sourceMappingURL=style.css.map */

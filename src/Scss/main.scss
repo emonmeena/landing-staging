@@ -34,6 +34,18 @@ h1 {
 		700,
 		-3.2px
 	);
+
+	@media only screen and (max-width: 760px) {
+		@include fontbase(
+			46px,
+			"Inter",
+			"sans-seriff",
+			$dark-color,
+			52px,
+			700,
+			-3.2px
+		);
+	}
 }
 
 h2 {
@@ -46,6 +58,18 @@ h2 {
 		700,
 		-2.4px
 	);
+
+	@media only screen and (max-width: 640px) {
+		@include fontbase(
+			36px,
+			"Inter",
+			"sans-seriff",
+			$dark-color,
+			44px,
+			700,
+			-2px
+		);
+	}
 }
 // color: #2B2B2B;
 // text-align: center;
@@ -135,6 +159,10 @@ p {
 		border: 1px solid $dark-color;
 		transition: 0.4s;
 		cursor: pointer;
+	}
+
+	@media only screen and (max-width: 760px) {
+		display: none;
 	}
 }
 

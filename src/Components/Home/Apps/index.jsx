@@ -15,7 +15,7 @@ const Apps = () => {
 				<h2>
 					Different apps made for
 					<br />
-					<span className="color-variation-blue">your research</span>
+					<span className="color-inlineVariation-blue ">your research</span>
 				</h2>
 			</div>
 		</div>

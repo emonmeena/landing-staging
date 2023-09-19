@@ -1,6 +1,5 @@
 .contactUs-container {
   display: flex;
-  justify-content: space-between;
 }
 
 .contactUs-video-wrapper {
@@ -416,8 +415,41 @@ input::placeholder {
   display: none;
 }
 
-@media only screen and (min-width: 1920px) {
+@media only screen and (max-width: 1100px) {
+  .contactUs-video-wrapper {
+    width: 40%;
+  }
+  .contactUs-video {
+    height: 735px;
+    margin-left: -700px;
+  }
+}
+@media only screen and (max-width: 1050px) {
   .contactUs-container {
-    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contactus-form-container {
+    width: auto;
+    padding: 40px 32px;
+    max-width: none;
+  }
+  .contactUs-video-wrapper {
+    width: 100%;
+    height: 330px;
+  }
+  .contactUs-video {
+    margin-left: auto;
+    margin-top: -150px;
+    height: 590px;
+    width: 100vw;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .form-firstLast-container {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */

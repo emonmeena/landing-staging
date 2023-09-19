@@ -13,17 +13,31 @@
 	max-width: 1600px;
 	margin-bottom: 160px;
 	margin-top: 135px;
+
+	@media only screen and (max-width: 1050px) {
+		margin-top: 48px;
+		margin-bottom: 48px;
+	}
 }
 
 .appStore-outter-container {
 	width: 100%;
 	max-width: 1600px;
 	margin-bottom: 180px;
+
+	@media only screen and (max-width: 1050px) {
+		margin-top: 48px;
+		margin-bottom: 96px;
+	}
 }
 .apps-outter-container {
 	width: 100%;
 
 	margin-bottom: 90px;
+	@media only screen and (max-width: 1050px) {
+		margin-top: 48px;
+		margin-bottom: 48px;
+	}
 }
 
 .drugDiscovery-outter-container {
@@ -31,6 +45,11 @@
 	max-width: 1600px;
 	margin-bottom: 160px;
 	justify-content: center;
+
+	@media only screen and (max-width: 1050px) {
+		margin-top: 48px;
+		margin-bottom: 96px;
+	}
 }
 
 .biotune-outter-container {
@@ -38,6 +57,11 @@
 	max-width: 1600px;
 	margin-bottom: 90px;
 	justify-content: center;
+
+	@media only screen and (max-width: 1050px) {
+		margin-top: 48px;
+		margin-bottom: 48px;
+	}
 }
 
 .imageR-outter-container {
@@ -60,6 +84,11 @@
 	justify-content: center;
 	padding-top: 90px;
 	padding-bottom: 90px;
+
+	@media only screen and (max-width: 1050px) {
+		padding-top: 48px;
+		padding-bottom: 48px;
+	}
 }
 
 .contactUs-outter-container {

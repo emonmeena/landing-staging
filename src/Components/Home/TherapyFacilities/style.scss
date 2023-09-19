@@ -33,3 +33,51 @@
 .therapy-buttons-wrapper {
 	margin-top: 8px;
 }
+
+@media only screen and (max-width: 1050px) {
+	.therapy-container {
+		padding: 60px 32px;
+		display: flex;
+		flex-direction: column;
+
+		gap: 92px;
+	}
+
+	.therapy-video-wrapper {
+		width: 97%;
+	}
+
+	.therapy-video {
+		width: 100%;
+	}
+
+	.therapy-text-container {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.therapy-container {
+		padding: 48px 16px;
+		display: flex;
+		flex-direction: column;
+
+		gap: 92px;
+	}
+
+	.therapy-video-wrapper {
+		height: 180px;
+		overflow: hidden;
+		border-radius: 10px;
+		border: 8px solid rgba(0, 0, 0, 0.1);
+	}
+
+	.therapy-video {
+		width: 100%;
+		height: auto;
+	}
+
+	.therapy-text-container {
+		width: 100%;
+	}
+}

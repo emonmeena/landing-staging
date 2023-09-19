@@ -29,3 +29,39 @@
 	display: flex;
 	justify-content: flex-start;
 }
+
+@media only screen and (max-width: 1435px) {
+	.biotune-text-container {
+		display: flex;
+		flex-direction: column;
+		width: 45%;
+		gap: 32px;
+	}
+	.biotune-image {
+		width: 47%;
+		height: auto;
+	}
+}
+
+@media only screen and (max-width: 1050px) {
+	.biotune-container {
+		padding: 0px 16px;
+	}
+	.biotune-text-container {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		gap: 32px;
+	}
+
+	.biotune-container {
+		flex-direction: column;
+		padding: 0px 32px;
+		gap: 48px;
+	}
+
+	.biotune-image {
+		width: 100%;
+		height: auto;
+	}
+}
