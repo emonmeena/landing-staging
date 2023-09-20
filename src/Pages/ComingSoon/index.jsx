@@ -23,7 +23,7 @@ const ComingSoon = () => {
 				<button
 					className="button-primary"
 					onClick={() => {
-						navigate("/home");
+						navigate("/landing-staging");
 					}}
 				>
 					{" "}

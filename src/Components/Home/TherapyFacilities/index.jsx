@@ -32,10 +32,15 @@ const TherapyFacilities = () => {
 					</p>
 				</div>
 				<div className="therapy-buttons-wrapper">
-					<button className="button-secondary">
+					<a
+						className="button-secondary"
+						href="https://firebasestorage.googleapis.com/v0/b/dicalmiami-49715.appspot.com/o/Misc%2FAntitoxine_Oxime%20copy.pdf?alt=media&token=5c71597e-b635-40c3-b198-0c7f172c5700"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
 						<img alt="download-icon" src={Download} />
 						Download case study
-					</button>
+					</a>
 				</div>
 			</div>
 		</div>
