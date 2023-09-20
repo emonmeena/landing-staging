@@ -8,7 +8,8 @@ import Biotune from "../../Components/Home/Biotune";
 import ImageReconstruction from "../../Components/Home/ImageReconstruction";
 import TherapyFacilities from "../../Components/Home/TherapyFacilities";
 import Partners from "../../Components/Home/Partners";
-import ContactUs from "../../Components/Home/ContactUs";
+// import ContactUs from "../../Components/Home/ContactUs";
+import Contact from "../../Components/Home/Contact";
 // import NavBar from "../../Components/Structural/NavBar";
 
 const HomePage = () => {
@@ -40,7 +41,7 @@ const HomePage = () => {
 					<Partners />
 				</div>
 				<div id="contact" className="contactUs-outter-container">
-					<ContactUs />
+					<Contact />
 				</div>
 			</div>
 		</>

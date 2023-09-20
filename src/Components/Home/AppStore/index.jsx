@@ -4,7 +4,9 @@ import "../../../Scss/main.scss";
 import View from "../../../Assets/Icons/eye.svg";
 import { Link } from "react-router-dom";
 // import Video from "../../../Assets/Hero/HeroImage_placeHolder.png";
+import { useNavigate } from "react-router-dom";
 const AppStore = () => {
+	const navigate = useNavigate();
 	return (
 		<div className="appStore-container">
 			<div className="appStore-text-container">
@@ -29,7 +31,13 @@ const AppStore = () => {
 					</p>
 				</div>
 				<div className="appStore-buttons-container">
-					<button className="button-primary"> Become a developer</button>
+					<button
+						className="button-primary"
+						onClick={() => navigate("/comingsoon")}
+					>
+						{" "}
+						Become a developer
+					</button>
 					<Link
 						className="button-secondary"
 						to="https://prepaire-staging.vercel.app/#/marketplace"

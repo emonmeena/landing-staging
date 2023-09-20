@@ -3,6 +3,10 @@
 	justify-content: space-between;
 	display: flex;
 	align-items: center;
+
+	video {
+		width: 50%;
+	}
 }
 .hero-text-container {
 	display: flex;
@@ -41,9 +45,10 @@
 	.hero-p-wrapper {
 		width: 100%;
 	}
-	.hero-video-wrapper {
-		height: 35%;
-		width: 35%;
+	.hero-container {
+		video {
+			width: 40%;
+		}
 	}
 }
 
@@ -54,6 +59,9 @@
 		gap: 48px;
 		flex-direction: column;
 		align-items: center;
+		video {
+			width: 100%;
+		}
 	}
 	.hero-text-container {
 		width: 100%;

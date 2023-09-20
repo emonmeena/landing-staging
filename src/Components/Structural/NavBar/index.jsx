@@ -1,13 +1,14 @@
 import React from "react";
 import "./style.css";
 import Logo from "../../../Assets/Icons/Frame 629711.svg";
+import { useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
 	const [prevScrollPos, setPrevScrollPos] = useState(0);
 	const [visible, setVisible] = useState(true);
-
+	const navigate = useNavigate();
 	// new function:
 	const handleScroll = () => {
 		// find current scroll position
@@ -34,21 +35,39 @@ const NavBar = () => {
 	return (
 		<div className="navBar-container" style={{ top: visible ? "0" : "-65px" }}>
 			<div className="navBar-logo-wrapper">
-				<img className="navBar-logo" src={Logo} alt="prepaire logo" />
+				<img
+					className="navBar-logo"
+					src={Logo}
+					alt="prepaire logo"
+					onClick={() => {
+						navigate("/home");
+					}}
+				/>
 			</div>
 			<div className="navbar-action-container">
 				<div className="navbar-links-container">
 					<Link to="https://prepaire-staging.vercel.app/#/marketplace">
 						Appstore
 					</Link>
-					<a> Developers</a>
-					<a>Mission</a>
 					<a
-						onClick={() =>
-							document
-								.querySelector("#biotune")
-								.scrollIntoView({ behavior: "smooth", block: "center" })
-						}
+						onClick={() => {
+							navigate("/comingsoon");
+						}}
+					>
+						{" "}
+						Developers
+					</a>
+					<a
+						onClick={() => {
+							navigate("/comingsoon");
+						}}
+					>
+						Mission
+					</a>
+					<a
+						onClick={() => {
+							navigate("/comingsoon");
+						}}
 					>
 						Biotune
 					</a>

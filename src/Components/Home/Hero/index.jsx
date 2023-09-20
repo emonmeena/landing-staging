@@ -1,10 +1,13 @@
 import React from "react";
 import "./style.scss";
 import "../../../Scss/main.scss";
-import Video from "../../../Assets/Hero/HeroImage_placeHolder.png";
+import Video from "../../../Assets/Hero/Editor.mp4";
 import Download from "../../../Assets/Icons/download.svg";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+
 const Hero = () => {
+	const navigate = useNavigate();
 	return (
 		<div className="hero-container">
 			<div className="hero-text-container">
@@ -31,19 +34,28 @@ const Hero = () => {
 					>
 						Get started
 					</Link>
-					<button className="button-secondary"> Become a developer</button>
+					<button
+						className="button-secondary"
+						onClick={() => navigate("/comingsoon")}
+					>
+						{" "}
+						Become a developer
+					</button>
 				</div>
 			</div>
-			<img
-				className="hero-video-wrapper"
-				src={Video}
-				alt="protein interaction"
-			/>
+			<video muted autoPlay={true} loop={true}>
+				<source src={Video} type="video/mp4" />
+			</video>
 
-			<button className="button-secondary-rotate">
+			<a
+				className="button-secondary-rotate"
+				href="https://firebasestorage.googleapis.com/v0/b/dicalmiami-49715.appspot.com/o/Misc%2FAntitoxine_Oxime%20copy.pdf?alt=media&token=5c71597e-b635-40c3-b198-0c7f172c5700"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
 				<img alt="download-icon" src={Download} />
 				Download case study
-			</button>
+			</a>
 		</div>
 	);
 };

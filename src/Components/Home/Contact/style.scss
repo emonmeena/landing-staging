@@ -1,0 +1,180 @@
+.contact-container {
+	display: flex;
+	flex-direction: column;
+	padding: 60px 60px 90px 60px;
+	text-align: center;
+	gap: 80px;
+
+	background: linear-gradient(
+		170deg,
+		rgba(84, 152, 238, 1) 0%,
+		rgba(84, 152, 238, 1) 60%,
+		rgba(84, 152, 238, 0) 43%
+	);
+}
+
+.contact-text-container {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+
+	h2 {
+		color: white;
+	}
+	p {
+		color: white;
+	}
+}
+
+.contact-social-container {
+	display: flex;
+	gap: 8px;
+	justify-content: center;
+	a {
+		display: flex;
+		padding: 12px;
+		align-items: center;
+		gap: 8px;
+		border-radius: 8px;
+		border: 1px solid rgba(255, 255, 255, 0.1);
+		background: rgba(255, 255, 255, 0.1);
+		transition: 0.2s;
+
+		&:hover {
+			background-color: #2f63a5;
+			transition: 0.2s;
+		}
+	}
+}
+
+.contact-cards-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 32px;
+}
+.contact-card {
+}
+
+.contact-regular-button {
+	opacity: 1;
+	display: flex;
+	padding: 20px 32px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	align-self: stretch;
+	width: 100%;
+	border-radius: 0px 0px 10px 10px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	background-color: #ffffff;
+
+	transition: 0.2s;
+	color: #5498ee;
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+
+	svg {
+		fill: #5498ee;
+		transition: 0.2s;
+	}
+
+	&:hover {
+		background: #5498ee;
+		color: white;
+		transition: 0.2s;
+
+		svg {
+			fill: white;
+			transition: 0.2s;
+		}
+	}
+}
+.absolute-button {
+	opacity: 1;
+	margin-top: px;
+	padding: 20px 32px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	align-self: stretch;
+	width: 100%;
+	border-radius: 0px 0px 10px 10px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	background-color: #ffffff;
+
+	color: #5498ee;
+	transition: 0.2s;
+
+	svg {
+		fill: #5498ee;
+		transition: 0.2s;
+	}
+}
+
+// .contact-button-svg {
+// 	width: 24px;
+// 	height: 24px;
+// 	fill: #61666d;
+// }
+.contact-cardContent-container {
+	border-radius: 10px 10px 0px 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 16px;
+
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 0px solid rgba(0, 0, 0, 0.1);
+	background: #fff;
+	/* droplogos */
+	box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.06);
+	padding: 32px;
+
+	p {
+		width: 292px;
+
+		color: #000;
+		text-align: center;
+		font-family: Inter;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 24px;
+	}
+}
+
+.contact-image-wrapper {
+	margin-top: -90px;
+
+	display: flex;
+	padding: 24px;
+	align-items: center;
+
+	border-radius: 100px;
+	background: #fff;
+	box-shadow: 0px 6.66667px 12px 0px rgba(0, 0, 0, 0.08);
+}
+
+@media screen and (max-width: 1215px) {
+	.contact-cardContent-container {
+		width: 230px;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.contact-cards-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		gap: 120px;
+	}
+
+	.contact-cardContent-container {
+		width: auto;
+		max-width: 811px;
+	}
+}

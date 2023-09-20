@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.scss";
-import Image from "../../../Assets/imageR/imageR_image.png";
+// import Image from "../../../Assets/imageR/imageR_image.png";
 import IconA from "../../../Assets/imageR/a_icon.png";
 import IconB from "../../../Assets/imageR/a_icon.png";
 import IconC from "../../../Assets/imageR/a_icon.png";
@@ -22,11 +22,11 @@ const ImageReconstruction = () => {
 						<span className="color-variation-blue">Image Reconstruction</span>
 					</h2>
 				</div>
-				<img
+				{/* <img
 					className="imageR-image"
 					alt="image recontructionn machine"
 					src={Image}
-				/>
+				/> */}
 			</div>
 			<div className="imageR-cards-container">
 				<div className="imageR-card-wrapper">
