@@ -5,7 +5,7 @@ import Apps from "../../Components/Home/Apps";
 import AppStore from "../../Components/Home/AppStore";
 import DrugDiscovery from "../../Components/Home/DrugDiscovery";
 import Biotune from "../../Components/Home/Biotune";
-import ImageReconstruction from "../../Components/Home/ImageReconstruction";
+// import ImageReconstruction from "../../Components/Home/ImageReconstruction";
 import TherapyFacilities from "../../Components/Home/TherapyFacilities";
 import Partners from "../../Components/Home/Partners";
 // import ContactUs from "../../Components/Home/ContactUs";
@@ -31,9 +31,9 @@ const HomePage = () => {
 				<div id="biotune" className="biotune-outter-container">
 					<Biotune />
 				</div>
-				<div className="imageR-outter-container">
+				{/* <div className="imageR-outter-container">
 					<ImageReconstruction />
-				</div>
+				</div> */}
 				<div className="therapy-outter-container">
 					<TherapyFacilities />
 				</div>

@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.scss";
 import Logo from "../../../Assets/Icons/prepaire-footer.svg";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
 	return (
@@ -21,9 +22,9 @@ const Footer = () => {
 							</p>
 						</div>
 						<div className="footer-emails-container">
-							<p>info@prepaire.com</p>
-							<p>media@prepaire.com</p>
-							<p>investors@prepaire.com</p>
+							<p>Sales@prepaire.com</p>
+							<p>Developers@prepaire.com</p>
+							<p>Investor@prepaire.com</p>
 						</div>
 					</div>
 					<div className="footer-link-container">
@@ -55,8 +56,12 @@ const Footer = () => {
 			</div>
 			<div className="footer-bottom-container">
 				<div className="terms-container">
-					<p>Terms of service</p>
-					<p>Privacy policy</p>
+					<Link to="https://app.termly.io/document/terms-of-service/fb3569e8-7a0f-4c89-8a4f-0a9bbbcde184">
+						Terms of service
+					</Link>
+					<Link to="https://app.termly.io/document/privacy-policy/c26544c0-fecf-417b-9648-3aa50e9054e0">
+						Privacy Policy
+					</Link>
 				</div>
 				<p>Copyright © 2023 Prepaire Labs Inc. All rights reserved.</p>
 			</div>

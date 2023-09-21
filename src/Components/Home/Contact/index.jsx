@@ -54,14 +54,14 @@ const Contact = () => {
 
 						<h3>Sales</h3>
 						<p>
-							We&apos;re eager to explore how we can collaborate and drive
-							success together
+							Interested in our platform? Reach out to our Sales team to learn
+							how we can elevate your research.
 						</p>
 
 						{/* <button className="contact-button-reveal">sales@prepaire.com</button> */}
 					</div>
 					<button className="contact-regular-button">
-						Contact Sales
+						Contact
 						<svg
 							className="contact-button-svg"
 							xmlns="http://www.w3.org/2000/svg"
@@ -84,14 +84,14 @@ const Contact = () => {
 
 						<h3>Developer support</h3>
 						<p>
-							We&apos;re eager to explore how we can collaborate and drive
-							success together
+							Developers, join us in shaping the future of personalized
+							medicine. Contact us to explore opportunities.
 						</p>
 
 						{/* <button className="contact-button-reveal">sales@prepaire.com</button> */}
 					</div>
 					<button className="contact-regular-button">
-						Contact Sales
+						Contact
 						<svg
 							className="contact-button-svg"
 							xmlns="http://www.w3.org/2000/svg"
@@ -114,14 +114,14 @@ const Contact = () => {
 
 						<h3>Media & investors</h3>
 						<p>
-							We&apos;re ready to provide you with any information or support
-							related to investments and financial matters
+							Media and investors, contact us for insights into our
+							groundbreaking work in personalized medicine.
 						</p>
 
 						{/* <button className="contact-button-reveal">sales@prepaire.com</button> */}
 					</div>
 					<button className="contact-regular-button">
-						Contact Sales
+						Contact
 						<svg
 							className="contact-button-svg"
 							xmlns="http://www.w3.org/2000/svg"
