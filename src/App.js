@@ -4,7 +4,9 @@ import "./App.css";
 import HomePage from "./Pages/Home";
 import NavBar from "./Components/Structural/NavBar";
 import Footer from "./Components/Structural/Footer";
-import ComingSoon from "./Pages/ComingSoon";
+import Developers from "./Pages/Developers";
+import Mission from "./Pages/Mission";
+import Biotune from "./Pages/Biotune";
 
 function App() {
 	return (
@@ -12,7 +14,9 @@ function App() {
 			<NavBar />
 			<Routes>
 				<Route exact path="/landing-staging" element={<HomePage />} />
-				<Route exact path="/comingsoon" element={<ComingSoon />} />
+				<Route exact path="/developers" element={<Developers />} />
+				<Route exact path="/mission" element={<Mission />} />
+				<Route exact path="/biotune" element={<Biotune />} />
 			</Routes>
 			<Footer />
 		</Router>

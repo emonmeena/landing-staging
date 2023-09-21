@@ -40,7 +40,7 @@ const NavBar = () => {
 					src={Logo}
 					alt="prepaire logo"
 					onClick={() => {
-						navigate("/home");
+						navigate("/landing-staging");
 					}}
 				/>
 			</div>
@@ -51,7 +51,7 @@ const NavBar = () => {
 					</Link>
 					<a
 						onClick={() => {
-							navigate("/comingsoon");
+							navigate("/developers");
 						}}
 					>
 						{" "}
@@ -59,14 +59,14 @@ const NavBar = () => {
 					</a>
 					<a
 						onClick={() => {
-							navigate("/comingsoon");
+							navigate("/mission");
 						}}
 					>
 						Mission
 					</a>
 					<a
 						onClick={() => {
-							navigate("/comingsoon");
+							navigate("/biotune");
 						}}
 					>
 						Biotune

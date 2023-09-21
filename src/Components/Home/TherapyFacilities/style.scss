@@ -60,13 +60,13 @@
 	.therapy-container {
 		padding: 48px 16px;
 		display: flex;
-		flex-direction: column;
+		flex-direction: column-reverse;
 
 		gap: 92px;
 	}
 
 	.therapy-video-wrapper {
-		height: 180px;
+		height: 280px;
 		overflow: hidden;
 		border-radius: 10px;
 		border: 8px solid rgba(0, 0, 0, 0.1);
@@ -74,7 +74,7 @@
 
 	.therapy-video {
 		width: 100%;
-		height: auto;
+		height: 100%;
 	}
 
 	.therapy-text-container {

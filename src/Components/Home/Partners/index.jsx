@@ -38,8 +38,8 @@ const Partners = () => {
 			<div className="partners-text-container">
 				<p className="partners-tittle">OUR PARTNERS</p>
 				<p>
-					Glass doors and floor-to-ceiling windows stream natural light into the
-					new Dubai Biotune Center, creating a positive energy in the space.
+					Our partners are at the forefront of innovation, driving advancements
+					that transform healthcare.
 				</p>
 			</div>
 			<div className="partnes-card-conatainer" style={{ height: contHeight }}>

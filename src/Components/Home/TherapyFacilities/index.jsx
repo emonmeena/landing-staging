@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.scss";
 import Video from "../../../Assets/Therapy/therapy-video.mp4";
-import Download from "../../../Assets/Icons/download.svg";
+// import Download from "../../../Assets/Icons/download.svg";
 
 const TherapyFacilities = () => {
 	return (
@@ -32,7 +32,7 @@ const TherapyFacilities = () => {
 					</p>
 				</div>
 				<div className="therapy-buttons-wrapper">
-					<a
+					{/* <a
 						className="button-secondary"
 						href="https://firebasestorage.googleapis.com/v0/b/dicalmiami-49715.appspot.com/o/Misc%2FAntitoxine_Oxime%20copy.pdf?alt=media&token=5c71597e-b635-40c3-b198-0c7f172c5700"
 						target="_blank"
@@ -40,7 +40,7 @@ const TherapyFacilities = () => {
 					>
 						<img alt="download-icon" src={Download} />
 						Download case study
-					</a>
+					</a> */}
 				</div>
 			</div>
 		</div>
