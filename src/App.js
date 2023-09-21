@@ -13,14 +13,10 @@ function App() {
 		<Router>
 			<NavBar />
 			<Routes>
-				<Route exact path="/landing-staging" element={<HomePage />} />
-				<Route
-					exact
-					path="/landing-staging/developers"
-					element={<Developers />}
-				/>
-				<Route exact path="/landing-staging/mission" element={<Mission />} />
-				<Route exact path="/landing-staging/biotune" element={<Biotune />} />
+				<Route exact path="/" element={<HomePage />} />
+				<Route exact path="/developers" element={<Developers />} />
+				<Route exact path="/mission" element={<Mission />} />
+				<Route exact path="/biotune" element={<Biotune />} />
 			</Routes>
 			<Footer />
 		</Router>
