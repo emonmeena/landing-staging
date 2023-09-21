@@ -20,23 +20,33 @@
 .footer-text-container {
   display: flex;
   flex-direction: row;
-  gap: 28px;
+  gap: 120px;
   align-items: flex-start;
   justify-content: flex-start;
 }
 .footer-text-container p {
-  color: rgba(255, 255, 255, 0.6);
+  color: #ffffff;
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 22px; /* 125% */
+  padding-bottom: 8px;
+}
+
+.footer-p-tittle {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding-bottom: 8px;
 }
 
 .footer-link-container {
   display: flex;
-  flex-direction: row;
-  gap: 21px;
+  flex-direction: column;
 }
 .footer-link-container a {
   color: #ffffff;
@@ -46,6 +56,7 @@
   font-weight: 500;
   line-height: 20px; /* 125% */
   text-decoration: none;
+  padding-bottom: 8px;
 }
 .footer-link-container a:hover {
   cursor: pointer;
@@ -55,7 +66,6 @@
 .footer-emails-container {
   display: flex;
   flex-direction: column;
-  gap: 12px;
 }
 
 .footer-bottom-container {
@@ -63,7 +73,7 @@
   bottom: 0px;
   left: 0px;
   height: fit-content;
-  padding: 17px 120px 16px 120px;
+  padding: 17px 60px 16px 60px;
   background-color: #5498ee;
   justify-content: space-between;
 }
@@ -78,14 +88,21 @@
 
 .terms-container {
   display: flex;
-  gap: 64px;
+  gap: 16px;
+}
+.terms-container a {
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
 }
 
 .footer-logotext-container {
   display: flex;
   flex-direction: column;
-  min-width: 272px;
-  gap: 28px;
+  width: 215px;
 }
 
 .footer-logo {

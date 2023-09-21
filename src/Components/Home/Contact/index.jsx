@@ -60,7 +60,10 @@ const Contact = () => {
 
 						{/* <button className="contact-button-reveal">sales@prepaire.com</button> */}
 					</div>
-					<button className="contact-regular-button">
+					<button
+						className="contact-regular-button"
+						onClick={() => (window.location = "mailto:sales@prepaire.com")}
+					>
 						Contact
 						<svg
 							className="contact-button-svg"
@@ -90,7 +93,10 @@ const Contact = () => {
 
 						{/* <button className="contact-button-reveal">sales@prepaire.com</button> */}
 					</div>
-					<button className="contact-regular-button">
+					<button
+						className="contact-regular-button"
+						onClick={() => (window.location = "mailto:developers@prepaire.com")}
+					>
 						Contact
 						<svg
 							className="contact-button-svg"
@@ -120,7 +126,10 @@ const Contact = () => {
 
 						{/* <button className="contact-button-reveal">sales@prepaire.com</button> */}
 					</div>
-					<button className="contact-regular-button">
+					<button
+						className="contact-regular-button"
+						onClick={() => (window.location = "mailto:investor@prepaire.com")}
+					>
 						Contact
 						<svg
 							className="contact-button-svg"

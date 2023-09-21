@@ -36,7 +36,7 @@ const Hero = () => {
 					</Link>
 					<button
 						className="button-secondary"
-						onClick={() => navigate("/comingsoon")}
+						onClick={() => navigate("/developers")}
 					>
 						{" "}
 						Become a developer

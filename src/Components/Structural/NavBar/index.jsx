@@ -4,6 +4,7 @@ import Logo from "../../../Assets/Icons/Frame 629711.svg";
 import { useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const NavBar = () => {
 	const [prevScrollPos, setPrevScrollPos] = useState(0);
@@ -71,15 +72,9 @@ const NavBar = () => {
 					>
 						Biotune
 					</a>
-					<a
-						onClick={() =>
-							document
-								.querySelector("#contact")
-								.scrollIntoView({ behavior: "smooth", block: "center" })
-						}
-					>
+					<HashLink to={"/landing-staging#contact"} smooth={true}>
 						Contact
-					</a>
+					</HashLink>
 				</div>
 				<div className="navBar-button-containers">
 					<Link

@@ -33,7 +33,7 @@ const AppStore = () => {
 				<div className="appStore-buttons-container">
 					<button
 						className="button-primary"
-						onClick={() => navigate("/comingsoon")}
+						onClick={() => navigate("/developers")}
 					>
 						{" "}
 						Become a developer

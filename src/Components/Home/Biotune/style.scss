@@ -1,13 +1,14 @@
 .biotune-container {
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
 	align-items: center;
 	padding: 0px 60px;
+	gap: 120px;
 }
 
 .biotune-image {
-	width: 556px;
-	height: 358px;
+	max-width: 700px;
+	height: auto;
 }
 
 .biotune-logo {
