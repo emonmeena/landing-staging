@@ -1,3 +1,19 @@
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes scroll-stripe-a {
+  from {
+    transform: translateX(-40px);
+  }
+  to {
+    transform: translateX(-2500px);
+  }
+}
 .heroDev-container {
   display: flex;
   flex-direction: column;
@@ -27,4 +43,6 @@
 }
 .heroDev-image-wrapper img {
   margin-left: -40px;
+  animation: 20s ease-out scroll-stripe-a;
+  animation-fill-mode: forwards;
 }/*# sourceMappingURL=style.css.map */

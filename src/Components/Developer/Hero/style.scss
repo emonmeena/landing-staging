@@ -1,3 +1,5 @@
+@import "./animation.scss";
+
 .heroDev-container {
 	display: flex;
 	flex-direction: column;
@@ -29,5 +31,7 @@
 
 	img {
 		margin-left: -40px;
+		animation: 20s ease-out scroll-stripe-a;
+		animation-fill-mode: forwards;
 	}
 }

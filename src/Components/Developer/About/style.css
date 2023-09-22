@@ -32,6 +32,11 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
+  transition: 0.3s ease-in;
+}
+.aboutDev-pictures-container :hover {
+  transform: scale(110%);
+  transition: 0.5s ease-out;
 }
 
 .aboutDev-pictures-topContainer {
@@ -39,6 +44,11 @@
   display: flex;
   gap: 16px;
   align-items: flex-end;
+  transition: 0.3s ease-in;
+}
+.aboutDev-pictures-topContainer :hover {
+  transform: scale(110%);
+  transition: 0.5s ease-out;
 }
 
 .aboutDev-pictures-bottomContainer {
@@ -46,4 +56,9 @@
   display: flex;
   gap: 16px;
   align-items: flex-start;
+  transition: 0.3s ease-in;
+}
+.aboutDev-pictures-bottomContainer :hover {
+  transform: scale(110%);
+  transition: 0.5s ease-out;
 }/*# sourceMappingURL=style.css.map */
