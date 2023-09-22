@@ -179,3 +179,9 @@ p {
 	);
 	border: 1px solid $primary-color;
 }
+
+.mobile-out {
+	@media screen and (max-width: 1050px) {
+		display: none;
+	}
+}

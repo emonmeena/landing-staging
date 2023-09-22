@@ -60,3 +60,13 @@
 		display: flex;
 	}
 }
+
+@media only screen and (max-width: 1050px) {
+	.navbar-links-container {
+		display: none;
+	}
+
+	.navbar-action-container {
+		display: none;
+	}
+}

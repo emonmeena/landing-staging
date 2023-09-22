@@ -28,12 +28,15 @@ const Hero = () => {
 					</p>
 				</div>
 				<div className="hero-buttons-container">
-					<Link
-						className="button-primary"
-						to="https://prepaire-staging.vercel.app/#/signup"
-					>
-						Get started
-					</Link>
+					<div className="mobile-out">
+						<Link
+							className="button-primary"
+							to="https://prepaire-staging.vercel.app/#/signup"
+						>
+							Get started
+						</Link>
+					</div>
+
 					<button
 						className="button-secondary"
 						onClick={() => navigate("/developers")}
@@ -43,7 +46,7 @@ const Hero = () => {
 					</button>
 				</div>
 			</div>
-			<video muted autoPlay={true} loop={true}>
+			<video muted autoPlay={true} loop={true} playsInline>
 				<source src={Video} type="video/mp4" />
 			</video>
 

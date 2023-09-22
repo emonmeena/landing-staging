@@ -10,21 +10,34 @@
 		align-items: center;
 	}
 
-	@media screen and (max-width: 370px) {
-		padding: 0px 16px;
+	@media screen and (max-width: 1280px) {
+		width: 100%;
+		img {
+			width: 50%;
+		}
 	}
 }
 
 .p-bold {
 	font-weight: 700;
 }
-
+.onBoarding-pictures-topContainer {
+	@media screen and (max-width: 1280px) {
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+	}
+}
 .onboardingDev-text-container {
 	display: flex;
 	width: 40%;
 	justify-content: center;
 	flex-direction: column;
 	gap: 32px;
+
+	@media screen and (max-width: 1280px) {
+		width: 60%;
+	}
 
 	@media screen and (max-width: 940px) {
 		width: 100%;

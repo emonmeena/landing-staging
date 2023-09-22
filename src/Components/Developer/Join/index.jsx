@@ -14,12 +14,14 @@ const Join = () => {
 				algorithms into therapies, your data into diagnoses, and your ideas into
 				a better future.
 			</p>
-			<Link
-				className="button-primary"
-				to="https://app.prepaire.com:5067/#/signup"
-			>
-				Join us now
-			</Link>
+			<div className="mobile-out">
+				<Link
+					className="button-primary"
+					to="https://app.prepaire.com:5067/#/signup"
+				>
+					Join us now
+				</Link>
+			</div>
 		</div>
 	);
 };

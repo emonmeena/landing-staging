@@ -7,7 +7,13 @@ const TherapyFacilities = () => {
 	return (
 		<div className="therapy-container">
 			<div className="therapy-video-wrapper">
-				<video className="therapy-video" muted autoPlay={true} loop={true}>
+				<video
+					className="therapy-video"
+					muted
+					autoPlay={true}
+					loop={true}
+					playsInline
+				>
 					<source src={Video} type="video/mp4" />
 				</video>
 			</div>

@@ -7,7 +7,13 @@ const Apps = () => {
 	return (
 		<div className="apps-container">
 			<div className="apps-video-wrapper">
-				<video className="apps-video" muted autoPlay={true} loop={true}>
+				<video
+					className="apps-video"
+					muted
+					autoPlay={true}
+					loop={true}
+					playsInline
+				>
 					<source src={Video} type="video/mp4" />
 				</video>
 			</div>

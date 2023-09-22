@@ -38,14 +38,16 @@ const AppStore = () => {
 						{" "}
 						Become a developer
 					</button>
-					<Link
-						className="button-secondary"
-						to="https://prepaire-staging.vercel.app/#/marketplace"
-					>
-						{" "}
-						<img alt="download-icon" src={View} />
-						View Appstore
-					</Link>
+					<div className="mobile-out">
+						<Link
+							className="button-secondary"
+							to="https://prepaire-staging.vercel.app/#/marketplace"
+						>
+							{" "}
+							<img alt="download-icon" src={View} />
+							View Appstore
+						</Link>
+					</div>
 				</div>
 			</div>
 			<div className="appStore-mockup-container">

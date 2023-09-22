@@ -32,4 +32,15 @@
   .biotuneSoon-content-container {
     width: 100%;
   }
+}
+@media screen and (max-width: 375px) {
+  .biotuneSoon-container {
+    padding-top: 200px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .biotuneSoon-content-container {
+    width: 100%;
+    margin-top: -100px;
+  }
 }/*# sourceMappingURL=style.css.map */
