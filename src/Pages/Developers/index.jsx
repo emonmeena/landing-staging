@@ -7,6 +7,7 @@ import Benefits from "../../Components/Developer/Benefits";
 import Features from "../../Components/Developer/Features";
 import Onboarding from "../../Components/Developer/Onboarding";
 import Join from "../../Components/Developer/Join";
+import Support from "../../Components/Developer/Support";
 
 const Developers = () => {
 	return (
@@ -29,7 +30,9 @@ const Developers = () => {
 					<Onboarding />
 				</div>
 
-				<div className="supprtDev-outter-container"></div>
+				<div className="supportDev-outter-container ">
+					<Support />
+				</div>
 				<div className="joinDev-outter-container">
 					<Join />
 				</div>

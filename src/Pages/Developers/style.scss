@@ -35,6 +35,20 @@
 	display: flex;
 	width: 100%;
 	max-width: 1600px;
+	padding: 90px 0px;
+}
+
+.supportDev-outter-container {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	padding: 90px 0px;
+	background-color: #fafafa;
+	background-image: url("../../Assets/Developers/support/Text.png");
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position-x: left;
+	background-position-y: bottom;
 }
 
 .joinDev-outter-container {

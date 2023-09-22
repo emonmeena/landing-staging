@@ -1,0 +1,46 @@
+.support-container {
+	display: flex;
+	width: 100%;
+	max-width: 1480px;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 0px 60px;
+
+	@media screen and (max-width: 1000px) {
+		flex-direction: column;
+		gap: 40px;
+		align-items: center;
+	}
+}
+
+.supportDev-cards-container {
+	display: flex;
+	gap: 32px;
+
+	@media screen and (max-width: 1000px) {
+		flex-direction: column;
+	}
+}
+
+.supportDev-cardContainer {
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+	max-width: 343px;
+}
+.supportdev-card {
+	display: flex;
+	height: 267px;
+	padding: 24px;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 16px;
+	align-self: stretch;
+
+	border-radius: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	background: #fff;
+
+	/* droplogos */
+	box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.06);
+}

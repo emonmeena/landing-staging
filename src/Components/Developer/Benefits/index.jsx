@@ -26,21 +26,20 @@ const Benefits = () => {
 
 				<div>
 					<img src={ImageB} alt="reach audience icon"></img>
-					<h3>Reach a Curated Audience</h3>
+					<h3>Revenue & Recognition</h3>
 					<p>
-						Your applications will be exposed to a focused, highvalue audience
-						of Citizen Scientists, researchers, and professionals in the drug
-						discovery and disease modeling sectors.
+						Our unique monetization models and inplatform rewards system give
+						your work the financial backing and credibility it deserves.
 					</p>
 				</div>
 
 				<div>
 					<img src={ImageC} alt="reach audience icon"></img>
-					<h3>Reach a Curated Audience</h3>
+					<h3>Unmatched Flexibility</h3>
 					<p>
-						Your applications will be exposed to a focused, highvalue audience
-						of Citizen Scientists, researchers, and professionals in the drug
-						discovery and disease modeling sectors.
+						With our Lab Information Management (LIM) operating system at the
+						core, the Prepaire App Store allows you to build and deploy
+						applications with unparalleled ease and efficiency.
 					</p>
 				</div>
 			</div>
