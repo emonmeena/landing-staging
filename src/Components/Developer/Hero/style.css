@@ -1,16 +1,8 @@
-@keyframes appear {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
 @keyframes scroll-stripe-a {
-  from {
+  100% {
     transform: translateX(-40px);
   }
-  to {
+  50% {
     transform: translateX(-2500px);
   }
 }
@@ -43,6 +35,6 @@
 }
 .heroDev-image-wrapper img {
   margin-left: -40px;
-  animation: 20s ease-out scroll-stripe-a;
+  animation: 40s ease-in-out scroll-stripe-a infinite;
   animation-fill-mode: forwards;
 }/*# sourceMappingURL=style.css.map */
