@@ -13,6 +13,12 @@
 	transition: top 0.2s;
 	z-index: 2;
 }
+
+.navBar-logo-wrapper {
+	:hover {
+		cursor: pointer;
+	}
+}
 .hidden {
 	display: none;
 }

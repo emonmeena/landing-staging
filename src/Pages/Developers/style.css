@@ -46,7 +46,7 @@
   background-color: #fafafa;
   background-image: url("../../Assets/Developers/support/Text.png");
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: 35%;
   background-position-x: left;
   background-position-y: bottom;
 }
@@ -64,6 +64,80 @@
 }
 
 @media only screen and (max-width: 1080px) {
+  .comingSoon-container {
+    padding-top: 48px;
+    flex-direction: column;
+    text-align: center;
+  }
+  .comingSoon-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .comingSoon-image-wrapper {
+    padding-top: 0px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .heroDev-layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+  }
+  .heroDev-outter-container {
+    width: 100%;
+  }
+  .aboutDev-outter-container {
+    display: flex;
+    width: 100%;
+    padding: 48px 0px;
+    max-width: 1600px;
+  }
+  .benefitsDev-outter-container {
+    display: flex;
+    width: 100%;
+    padding: 48px 0px;
+    max-width: 1600px;
+  }
+  .featuresDev-outter-container {
+    display: flex;
+    width: 100%;
+    max-width: 1600px;
+    padding: 48px 0px;
+  }
+  .onboardingDev-outter-container {
+    display: flex;
+    width: 100%;
+    max-width: 1600px;
+    padding: 0px 0px;
+  }
+  .supportDev-outter-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 48px 0px;
+    background-color: #fafafa;
+    background-image: url("../../Assets/Developers/support/Text.png");
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position-x: left;
+    background-position-y: bottom;
+  }
+  .joinDev-outter-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    background: #fafafa;
+    background-image: url("../../Assets/Developers/join/bg.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: right;
+  }
+}
+@media only screen and (max-width: 680px) and (max-width: 1080px) {
   .comingSoon-container {
     padding-top: 48px;
     flex-direction: column;

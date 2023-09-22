@@ -7,7 +7,7 @@
 @media screen and (max-width: 940px) {
   .featuresDev-container {
     flex-direction: column;
-    padding: 60px;
+    padding: 30px;
   }
 }
 

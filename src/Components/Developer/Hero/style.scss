@@ -13,6 +13,9 @@
 	button {
 		margin-top: 32px;
 	}
+
+	@media screen and (max-width: 1000px) {
+	}
 }
 .heroDev-text-container {
 	padding: 0px 60px;
@@ -21,6 +24,10 @@
 
 	h1 {
 		margin-bottom: 32px;
+	}
+
+	@media screen and (max-width: 1000px) {
+		padding: 0px 30px;
 	}
 }
 

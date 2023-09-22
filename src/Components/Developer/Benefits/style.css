@@ -32,6 +32,9 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .benefitsDev-container {
+    padding: 0px 30px;
+  }
   .benefitDev-cards-container {
     flex-direction: column;
   }

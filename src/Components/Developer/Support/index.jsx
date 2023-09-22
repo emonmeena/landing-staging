@@ -7,10 +7,7 @@ import ImgC from "../../../Assets/Developers/support/users-01.svg";
 const Support = () => {
 	return (
 		<div className="support-container">
-			<h2>
-				Developer <br />
-				support
-			</h2>
+			<h2>Developer Support</h2>
 			<div className="supportDev-cards-container">
 				<div className="supportDev-cardContainer">
 					<div className="supportdev-card">

@@ -18,7 +18,7 @@ const Onboarding = () => {
 				</p>
 			</div>
 			<div className="aboutDev-pictures-container">
-				<div className=" aboutDev-pictures-topContainer">
+				<div className=" onBoarding-pictures-topContainer">
 					<img src={imageA}></img>
 				</div>
 			</div>
