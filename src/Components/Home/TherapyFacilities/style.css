@@ -65,7 +65,7 @@
     border: 8px solid rgba(0, 0, 0, 0.1);
   }
   .therapy-video {
-    width: 100%;
+    width: auto;
     height: 100%;
   }
   .therapy-text-container {
