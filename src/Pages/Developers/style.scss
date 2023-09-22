@@ -1,28 +1,52 @@
-.comingSoon-container {
-	display: flex;
-	align-items: center;
-	height: 700px;
-	overflow: hidden;
-	max-width: 1600px;
-
-	justify-content: center;
-}
-
-.comingSoon-content-container {
+.heroDev-layout {
 	display: flex;
 	flex-direction: column;
-	gap: 32px;
-	width: 60%;
-	padding: 0px 44px;
+	justify-content: center;
+	align-items: center;
+	z-index: -1;
 }
 
-.comingSoon-image-wrapper {
+.heroDev-outter-container {
+	width: 100%;
+}
+
+.aboutDev-outter-container {
 	display: flex;
-	align-items: flex-end;
-	padding-top: 200px;
-	img {
-		height: 70vh;
-	}
+	width: 100%;
+	padding: 90px 0px;
+	max-width: 1600px;
+}
+
+.benefitsDev-outter-container {
+	display: flex;
+	width: 100%;
+	padding: 90px 0px;
+	max-width: 1600px;
+}
+
+.featuresDev-outter-container {
+	display: flex;
+	width: 100%;
+	max-width: 1600px;
+	padding: 90px 0px;
+}
+
+.onboardingDev-outter-container {
+	display: flex;
+	width: 100%;
+	max-width: 1600px;
+}
+
+.joinDev-outter-container {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	background: #fafafa;
+	background-image: url("../../Assets/Developers/join/bg.png");
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position-x: right;
 }
 
 @media only screen and (max-width: 1080px) {

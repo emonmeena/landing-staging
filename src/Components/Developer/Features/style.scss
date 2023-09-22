@@ -1,0 +1,61 @@
+.featuresDev-container {
+	display: flex;
+	width: 100%;
+	padding: 0px 0px 0px 60px;
+	justify-content: space-between;
+
+	@media screen and (max-width: 940px) {
+		flex-direction: column;
+		padding: 60px;
+	}
+}
+
+.featuresDev-text-container {
+	display: flex;
+	flex-direction: column;
+	max-width: 50%;
+
+	h2 {
+		margin-bottom: 48px;
+	}
+
+	@media screen and (max-width: 940px) {
+		max-width: 100%;
+	}
+}
+
+.featuresDev-cards-container {
+	display: flex;
+	padding: 24px 24px 24px 0px;
+	align-items: flex-start;
+	gap: 16px;
+	align-self: stretch;
+}
+
+.featuresDev-card-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	text-align: left;
+	width: 100%;
+}
+
+.featuresDev-features-container {
+	display: flex;
+}
+
+.featureDev-image-wrapper {
+	overflow: hidden;
+	height: 570px;
+}
+.featuresDev-image {
+	display: flex;
+	margin-top: 50px;
+	height: 470px;
+
+	@media screen and (max-width: 940px) {
+		width: 100%;
+		height: auto;
+	}
+}

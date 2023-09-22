@@ -1,0 +1,27 @@
+.heroDev-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  gap: 109px;
+  background-image: url("../../../Assets/Developers/HeroNav/Frame 629798.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.heroDev-container button {
+  margin-top: 32px;
+}
+
+.heroDev-text-container {
+  padding: 0px 60px;
+  margin: auto;
+  max-width: 1600px;
+}
+
+.heroDev-image-wrapper {
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+}
+.heroDev-image-wrapper img {
+  margin-left: -40px;
+}/*# sourceMappingURL=style.css.map */
