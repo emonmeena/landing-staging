@@ -16,6 +16,9 @@
   margin: auto;
   max-width: 1600px;
 }
+.heroDev-text-container h1 {
+  margin-bottom: 32px;
+}
 
 .heroDev-image-wrapper {
   display: flex;

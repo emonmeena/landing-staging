@@ -41,7 +41,7 @@ const NavBar = () => {
 					src={Logo}
 					alt="prepaire logo"
 					onClick={() => {
-						navigate("/landing-staging");
+						navigate("/");
 					}}
 				/>
 			</div>

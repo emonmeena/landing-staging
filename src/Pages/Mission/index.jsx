@@ -15,9 +15,19 @@ const Mission = () => {
 					</span>
 				</h1>
 				<p>
-					Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-					nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-					volutpat.{" "}
+					Prepaire Labs is on a mission to reshape the landscape of medicine,
+					making personalized treatments that harmonize with individual genetics
+					accessible to all. Our vision is simple yet powerful: an open platform
+					that thrives on collaboration and innovation across the scientific
+					community. With our revolutionary white box model and the imminent
+					launch of our advanced BSL3 lab, we&apos;re bringing groundbreaking
+					therapies closer to researchers and patients, revolutionizing and
+					democratizing drug discovery.
+				</p>
+
+				<p>
+					<span className="p-bold">Join us</span> as we embark on this journey
+					to make medicine more inclusive and effective than ever before.
 				</p>
 				<button
 					className="button-primary"
