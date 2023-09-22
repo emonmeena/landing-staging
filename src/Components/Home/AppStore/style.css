@@ -99,4 +99,19 @@
     width: 100%;
     background-size: contain;
   }
+}
+@media only screen and (max-width: 370px) {
+  .appStore-buttons-container {
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+  }
+  .appStore-buttons-container a {
+    width: auto;
+    justify-content: center;
+  }
+  .appStore-buttons-container button {
+    width: 100%;
+    justify-content: center;
+  }
 }/*# sourceMappingURL=style.css.map */

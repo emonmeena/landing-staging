@@ -38,4 +38,9 @@
   .benefitDev-cards-container {
     flex-direction: column;
   }
+}
+@media screen and (max-width: 370px) {
+  .benefitsDev-container {
+    padding: 0px 16px;
+  }
 }/*# sourceMappingURL=style.css.map */

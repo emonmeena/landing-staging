@@ -11,6 +11,11 @@
     align-items: center;
   }
 }
+@media screen and (max-width: 370px) {
+  .onboardinDev-container {
+    padding: 0px 16px;
+  }
+}
 
 .p-bold {
   font-weight: 700;

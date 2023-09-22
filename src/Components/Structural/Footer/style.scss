@@ -172,3 +172,22 @@
 		flex-direction: column;
 	}
 }
+
+@media only screen and (max-width: 370px) {
+	.terms-container {
+		justify-content: center;
+		align-items: center;
+		gap: 5px;
+		a {
+			width: 100%;
+		}
+	}
+	.footer-bottom-container {
+		display: flex;
+
+		flex-direction: column;
+		gap: 12px;
+		padding: 16px;
+		justify-content: space-between;
+	}
+}

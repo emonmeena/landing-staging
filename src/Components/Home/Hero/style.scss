@@ -87,3 +87,19 @@
 		padding: 0px 16px;
 	}
 }
+
+@media only screen and (max-width: 370px) {
+	.hero-buttons-container {
+		width: 100%;
+		flex-direction: column;
+		text-align: center;
+		a {
+			width: auto;
+			justify-content: center;
+		}
+		button {
+			width: 100%;
+			justify-content: center;
+		}
+	}
+}

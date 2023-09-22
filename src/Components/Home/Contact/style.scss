@@ -181,3 +181,14 @@
 		max-width: 811px;
 	}
 }
+
+@media only screen and (max-width: 370px) {
+	.contact-container {
+		padding: 16px;
+	}
+	.contact-cards-container {
+		p {
+			width: 100%;
+		}
+	}
+}

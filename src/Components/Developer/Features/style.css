@@ -10,6 +10,11 @@
     padding: 30px;
   }
 }
+@media screen and (max-width: 370px) {
+  .featuresDev-container {
+    padding: 0px 16px;
+  }
+}
 
 .featuresDev-text-container {
   display: flex;
