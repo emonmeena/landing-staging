@@ -85,6 +85,15 @@
   font-weight: 400;
   line-height: 20px; /* 125% */
 }
+.footer-bottom-container a {
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  text-decoration: none;
+}
 
 .terms-container {
   display: flex;

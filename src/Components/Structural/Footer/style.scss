@@ -92,6 +92,15 @@
 		font-weight: 400;
 		line-height: 20px; /* 125% */
 	}
+	a {
+		color: $light-color;
+		font-family: Inter;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 20px; /* 125% */
+		text-decoration: none;
+	}
 }
 
 .terms-container {

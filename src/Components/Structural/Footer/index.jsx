@@ -57,11 +57,19 @@ const Footer = () => {
 			</div>
 			<div className="footer-bottom-container">
 				<div className="terms-container">
-					<a to="https://app.termly.io/document/terms-of-service/fb3569e8-7a0f-4c89-8a4f-0a9bbbcde184">
+					<a
+						href="https://app.termly.io/document/terms-of-service/fb3569e8-7a0f-4c89-8a4f-0a9bbbcde184"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
 						Terms of service
 					</a>
 					<p>|</p>
-					<a to="https://app.termly.io/document/privacy-policy/c26544c0-fecf-417b-9648-3aa50e9054e0">
+					<a
+						href="https://app.termly.io/document/privacy-policy/c26544c0-fecf-417b-9648-3aa50e9054e0"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
 						Privacy Policy
 					</a>
 				</div>
