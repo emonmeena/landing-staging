@@ -72,7 +72,7 @@ const NavBar = () => {
 					>
 						Biotune
 					</a>
-					<HashLink to={"/landing-staging#contact"} smooth={true}>
+					<HashLink to={"/#contact"} smooth={true}>
 						Contact
 					</HashLink>
 				</div>
