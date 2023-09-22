@@ -31,7 +31,7 @@ const Biotune = () => {
 				<button
 					className="button-primary"
 					onClick={() => {
-						navigate("/landing-staging");
+						navigate("/");
 					}}
 				>
 					Back to homepage
