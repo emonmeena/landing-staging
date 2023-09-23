@@ -62,5 +62,8 @@
 @media only screen and (max-width: 680px) {
   .drugDiscovery-container {
     padding: 0px 16px;
+    text-align: left;
+    justify-content: left;
+    align-items: center;
   }
 }/*# sourceMappingURL=style.css.map */

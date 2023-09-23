@@ -8,4 +8,14 @@
 	}
 }
 
+@keyframes scroll-stripeMobile-appStore {
+	100% {
+		margin-top: 0px;
+	}
+
+	50% {
+		margin-top: -500px;
+	}
+}
+
 //duration | timing-function | iteration-count | name

@@ -6,13 +6,12 @@ import Icon from "../../../Assets/Icons/Vector.svg";
 const DrugDiscovery = () => {
 	return (
 		<div className="drugDiscovery-container">
-			<div className="hero-title-wrapper">
-				<h2>
-					Advancing
-					<span className="color-inlineVariation-blue">Drug Discovery</span>
-					through AI <br /> and Chemical Integration
-				</h2>
-			</div>
+			<h2>
+				Advancing
+				<span className="color-inlineVariation-blue">Drug Discovery</span>
+				through AI <br /> and Chemical Integration
+			</h2>
+
 			<div className="drugDiscovery-content-container">
 				<img
 					className="drugdiscovery-image-container"

@@ -36,6 +36,13 @@
 	align-items: flex-start;
 	gap: 16px;
 	align-self: stretch;
+	@media screen {
+		max-width: 700px;
+
+		img {
+			width: 25%;
+		}
+	}
 }
 
 .featuresDev-card-container {
