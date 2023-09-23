@@ -54,14 +54,14 @@
 	.aboutDev-container {
 		padding: 0px 5px;
 		flex-direction: column-reverse;
-
+		width: auto;
 		justify-content: center;
 		align-items: center;
 		gap: 60px;
 		text-align: center;
 	}
 	.aboutDev-pictures-container {
-		width: 90%;
+		width: auto;
 		img {
 			width: 100%;
 		}
@@ -69,14 +69,14 @@
 
 	.aboutDev-pictures-topContainer {
 		justify-content: flex-start;
-		width: 95%;
+		width: auto;
 		img {
 			width: 50%;
 		}
 	}
 	.aboutDev-pictures-bottomContainer {
 		justify-content: flex-start;
-		width: 95%;
+		width: auto;
 		img {
 			width: 50%;
 		}
@@ -84,6 +84,6 @@
 
 	.aboutDev-text-container {
 		display: flex;
-		width: 100%;
+		width: auto;
 	}
 }
