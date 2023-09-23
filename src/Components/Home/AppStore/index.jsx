@@ -41,7 +41,7 @@ const AppStore = () => {
 					<div className="mobile-out">
 						<Link
 							className="button-secondary"
-							to="https://prepaire-staging.vercel.app/#/marketplace"
+							to="https://app.prepaire.com:5067/#/marketplace"
 						>
 							{" "}
 							<img alt="download-icon" src={View} />
