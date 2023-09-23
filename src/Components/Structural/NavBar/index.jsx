@@ -78,6 +78,7 @@ const NavBar = () => {
 					<Link
 						className="button-secondary"
 						to="https://app.prepaire.com:5067/#/login"
+						// to="https://app.prepaire.com:5067/#/login"
 					>
 						Log in
 					</Link>
