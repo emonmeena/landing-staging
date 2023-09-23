@@ -47,9 +47,7 @@ const NavBar = () => {
 			</div>
 			<div className="navbar-action-container">
 				<div className="navbar-links-container">
-					<Link to="https://prepaire-staging.vercel.app/#/marketplace">
-						Appstore
-					</Link>
+					<Link to="https://app.prepaire.com:5067/#/marketplace">Appstore</Link>
 					<a
 						onClick={() => {
 							navigate("/developers");
@@ -80,6 +78,7 @@ const NavBar = () => {
 					<Link
 						className="button-secondary"
 						to="https://app.prepaire.com:5067/#/login"
+						// to="https://app.prepaire.com:5067/#/login"
 					>
 						Log in
 					</Link>

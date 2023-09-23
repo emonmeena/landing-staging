@@ -1,3 +1,11 @@
+@keyframes scroll-stripe-featuresDev {
+  100% {
+    margin-top: 0px;
+  }
+  50% {
+    margin-top: -1550px;
+  }
+}
 .featuresDev-container {
   display: flex;
   width: 100%;
@@ -53,7 +61,9 @@
 
 .featureDev-image-wrapper {
   overflow: hidden;
-  height: 570px;
+  height: 468px;
+  justify-content: center;
+  align-items: center;
 }
 @media screen and (max-width: 640px) {
   .featureDev-image-wrapper {
@@ -61,10 +71,30 @@
   }
 }
 
-.featuresDev-image {
+.featuresDev-image-mask {
+  position: relative;
+  z-index: 1;
   display: flex;
-  margin-top: 50px;
   height: 470px;
+}
+@media screen and (max-width: 940px) {
+  .featuresDev-image-mask {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.featuresDev-image {
+  background-image: url("../../../Assets/AppStore/appStore-mockup.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 765px;
+  height: 2048px;
+  margin-left: 70px;
+  animation: 40s ease-in-out scroll-stripe-featuresDev infinite;
+}
+.featuresDev-image:hover {
+  animation-play-state: paused;
 }
 @media screen and (max-width: 940px) {
   .featuresDev-image {

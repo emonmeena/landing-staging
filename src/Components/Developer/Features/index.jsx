@@ -46,7 +46,8 @@ const Features = () => {
 				</div>
 			</div>
 			<div className="featureDev-image-wrapper">
-				<img className="featuresDev-image" src={Computer}></img>
+				<img className="featuresDev-image-mask" src={Computer} />
+				{/* <div className="featuresDev-image" /> */}
 			</div>
 		</div>
 	);

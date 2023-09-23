@@ -3,6 +3,10 @@ import "./style.scss";
 import Logo from "../../../Assets/Icons/prepaire-footer.svg";
 import { useNavigate } from "react-router-dom";
 
+import xlogo from "../../../Assets/ContactUs/x logo 1.png";
+import instagram from "../../../Assets/ContactUs/Instagram.png";
+import linkedIn from "../../../Assets/ContactUs/Linkedin.png";
+
 const Footer = () => {
 	const navigate = useNavigate();
 	return (
@@ -48,14 +52,58 @@ const Footer = () => {
 						</div>
 						<div className="footer-emails-container">
 							<span className="footer-p-tittle">Contact</span>
-							<p>Sales@prepaire.com</p>
-							<p>Developers@prepaire.com</p>
-							<p>Investor@prepaire.com</p>
+							<a
+								onClick={() => (window.location = "mailto:sales@prepaire.com")}
+							>
+								Sales@prepaire.com
+							</a>
+							<a
+								onClick={() =>
+									(window.location = "mailto:developers@prepaire.com")
+								}
+							>
+								Developers@prepaire.com
+							</a>
+							<a
+								onClick={() =>
+									(window.location = "mailto:investor@prepaire.com")
+								}
+							>
+								Investor@prepaire.com
+							</a>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div className="footer-bottom-container">
+				<div className="terms-social-container">
+					<a
+						href="https://twitter.com/prepaire_labs?lang=en "
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						{" "}
+						<img src={xlogo} />
+					</a>
+					<a
+						href="https://www.instagram.com/prepaire_labs/ "
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						{" "}
+						<img src={instagram} />
+					</a>
+
+					<a
+						href="https://ie.linkedin.com/company/prepaire-labs"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						{" "}
+						<img src={linkedIn} />
+					</a>
+				</div>
+				<p>Copyright © 2023 Prepaire Labs Inc. All rights reserved.</p>
 				<div className="terms-container">
 					<a
 						href="https://app.termly.io/document/terms-of-service/fb3569e8-7a0f-4c89-8a4f-0a9bbbcde184"
@@ -73,7 +121,6 @@ const Footer = () => {
 						Privacy Policy
 					</a>
 				</div>
-				<p>Copyright © 2023 Prepaire Labs Inc. All rights reserved.</p>
 			</div>
 		</>
 	);
