@@ -52,4 +52,10 @@
   background: #fff;
   /* droplogos */
   box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.06);
+}
+@media screen and (max-width: 480px) {
+  .supportdev-card {
+    padding: 12px;
+    height: 300px;
+  }
 }/*# sourceMappingURL=style.css.map */

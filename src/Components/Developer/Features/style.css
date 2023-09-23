@@ -45,6 +45,14 @@
   gap: 16px;
   align-self: stretch;
 }
+@media screen {
+  .featuresDev-cards-container {
+    max-width: 700px;
+  }
+  .featuresDev-cards-container img {
+    width: 25%;
+  }
+}
 
 .featuresDev-card-container {
   display: flex;

@@ -1,9 +1,17 @@
 @keyframes scroll-stripe-appStore {
   100% {
-    margin-top: 0px;
+    margin-top: -600px;
   }
   50% {
-    margin-top: -1550px;
+    margin-top: -1500px;
+  }
+}
+@keyframes scroll-stripeMobile-appStore {
+  100% {
+    margin-top: -400px;
+  }
+  50% {
+    margin-top: -500px;
   }
 }
 .appStore-container {
@@ -113,5 +121,8 @@
   .appStore-buttons-container button {
     width: 100%;
     justify-content: center;
+  }
+  .appStore-mockup {
+    animation: 40s ease-in-out scroll-stripeMobile-appStore infinite;
   }
 }/*# sourceMappingURL=style.css.map */
