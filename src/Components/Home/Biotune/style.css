@@ -73,7 +73,7 @@
     justify-content: center;
   }
   .biotune-image {
-    width: 100%;
-    height: 175.5px;
+    height: 175.5;
+    object-fit: cover;
   }
 }/*# sourceMappingURL=style.css.map */
