@@ -3,6 +3,7 @@ import "./style.scss";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
+import img from "../../Assets/Biotune/biotune.png";
 
 const Biotune = () => {
 	const navigate = useNavigate();
@@ -16,6 +17,7 @@ const Biotune = () => {
 
 	return (
 		<div className="biotuneSoon-container">
+			<img src={img}></img>
 			<div className="biotuneSoon-content-container">
 				<h2>
 					Coming Soon: <br />

@@ -36,6 +36,15 @@ const Support = () => {
 							developers and scientists.
 						</p>
 					</div>
+					<div className="supportdev-card">
+						<img src={ImgC} alt="comunity icon" />
+						<h3>User Interface Democratization</h3>
+						<p>
+							Utilize our UI/UX support to democratize your app&apos;s user
+							interface, making it accessible and user-friendly for a broad
+							audience, ultimately increasing usability and exposure.
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>
