@@ -27,7 +27,7 @@
 .featuresDev-text-container {
   display: flex;
   flex-direction: column;
-  max-width: 50%;
+  max-width: 40%;
 }
 .featuresDev-text-container h2 {
   margin-bottom: 48px;
@@ -45,10 +45,7 @@
   gap: 16px;
   align-self: stretch;
 }
-@media screen {
-  .featuresDev-cards-container {
-    max-width: 700px;
-  }
+@media screen and (max-width: 700px) {
   .featuresDev-cards-container img {
     width: 25%;
   }
@@ -72,6 +69,7 @@
   height: 468px;
   justify-content: center;
   align-items: center;
+  margin-top: 48px;
 }
 @media screen and (max-width: 640px) {
   .featureDev-image-wrapper {
