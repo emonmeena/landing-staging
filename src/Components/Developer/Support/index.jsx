@@ -3,6 +3,7 @@ import "./style.scss";
 import ImgA from "../../../Assets/Developers/support/message-question-square.svg";
 import ImgB from "../../../Assets/Developers/support/file-code-01.svg";
 import ImgC from "../../../Assets/Developers/support/users-01.svg";
+import ImgD from "../../../Assets/Developers/support/ui.svg";
 
 const Support = () => {
 	return (
@@ -37,7 +38,7 @@ const Support = () => {
 						</p>
 					</div>
 					<div className="supportdev-card">
-						<img src={ImgC} alt="comunity icon" />
+						<img src={ImgD} alt="comunity icon" />
 						<h3>User Interface Democratization</h3>
 						<p>
 							Utilize our UI/UX support to democratize your app&apos;s user
